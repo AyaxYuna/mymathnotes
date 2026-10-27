@@ -1,0 +1,126 @@
+{
+  "version": 1,
+  "title": "未命名导图",
+  "layoutMode": "free",
+  "viewport": {
+    "x": 24.08000000000004,
+    "y": 411.1450625,
+    "zoom": 1.44
+  },
+  "nodes": [
+    {
+      "id": "root",
+      "kind": "text",
+      "title": "解直角三角形",
+      "x": 0,
+      "y": 0,
+      "width": 180,
+      "height": 56,
+      "treeControl": "auto"
+    },
+    {
+      "id": "node_mvr64hal_1ww410",
+      "kind": "text",
+      "title": "直角三角形",
+      "x": 207,
+      "y": -156.60000000000002,
+      "width": 180,
+      "height": 56,
+      "treeControl": "manual-expanded"
+    },
+    {
+      "id": "node_mvr6515p_v9hwl5",
+      "kind": "text",
+      "title": "直角三角形的性质\n另外：30° 角所对的直角边等于斜边的一半",
+      "x": 490.57142857142856,
+      "y": -111.80000000000001,
+      "width": 180,
+      "height": 56,
+      "treeControl": "manual-expanded"
+    },
+    {
+      "id": "node_mvr65q46_4d22si",
+      "kind": "text",
+      "title": "测量",
+      "x": 357,
+      "y": -244.2,
+      "width": 180,
+      "height": 56,
+      "treeControl": "manual-expanded"
+    },
+    {
+      "id": "node_mvr6664e_qb70bn",
+      "kind": "text",
+      "title": "锐角三角函数\n（边角关系）",
+      "x": 198,
+      "y": 132.60000000000002,
+      "width": 180,
+      "height": 56,
+      "treeControl": "manual-expanded"
+    },
+    {
+      "id": "node_mvr6a466_iocg3r",
+      "kind": "text",
+      "title": "正弦、余弦和正切\n（sin, cos 和 tan）",
+      "x": 464,
+      "y": 16.600000000000023,
+      "width": 180,
+      "height": 56,
+      "treeControl": "manual-expanded"
+    },
+    {
+      "id": "node_mvr6dov8_osf80d",
+      "kind": "text",
+      "title": "拓展：余切、正割、余割\n（cot, sec, csc）",
+      "x": 479,
+      "y": 190.60000000000002,
+      "width": 180,
+      "height": 56,
+      "treeControl": "manual-expanded"
+    }
+  ],
+  "edges": [
+    {
+      "id": "edge_mvr64hal_sef5dx",
+      "source": "root",
+      "target": "node_mvr64hal_1ww410",
+      "relation": "mindmap",
+      "type": "curve"
+    },
+    {
+      "id": "edge_mvr6515q_fyy71l",
+      "source": "node_mvr64hal_1ww410",
+      "target": "node_mvr6515p_v9hwl5",
+      "relation": "mindmap",
+      "type": "curve"
+    },
+    {
+      "id": "edge_mvr65q46_t27nij",
+      "source": "node_mvr64hal_1ww410",
+      "target": "node_mvr65q46_4d22si",
+      "relation": "mindmap",
+      "type": "curve"
+    },
+    {
+      "id": "edge_mvr6664e_pny2s9",
+      "source": "root",
+      "target": "node_mvr6664e_qb70bn",
+      "relation": "mindmap",
+      "type": "curve"
+    },
+    {
+      "id": "edge_mvr6a466_x6knns",
+      "source": "node_mvr6664e_qb70bn",
+      "target": "node_mvr6a466_iocg3r",
+      "relation": "mindmap",
+      "type": "curve"
+    },
+    {
+      "id": "edge_mvr6dov9_1x17dc",
+      "source": "node_mvr6664e_qb70bn",
+      "target": "node_mvr6dov8_osf80d",
+      "relation": "mindmap",
+      "type": "curve"
+    }
+  ]
+}
